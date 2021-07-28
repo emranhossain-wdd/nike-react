@@ -1,0 +1,50 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+.font-bn{
+    font-family: 'Bebas Neue', cursive;
+}
+/*------------
+ header part 
+ -------------*/
+.navbar-brand img{
+    width: 290px;
+    height: 40px;
+}
+.hero-title{
+    font-size: 4rem!important;
+    letter-spacing: 1px;
+}
+.bg-lightyellow{
+    background-color: #FFF9F4;
+}
+.text-orange{
+    color:#FA804C;
+}
+.bg-gra-darkblue{
+    background-image: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+/*------------ ---
+casual shoes part 
+-----------------*/
+#product img{
+    width: 300px;
+    height: 300px;
+}
+.card-footer{
+    background-color: #ffffff;
+    border: none;
+}
+/* ------------
+features part
+-------------- */
+#features .card img{
+    width: 80px;
+    height: 80px;
+}
+@media (max-width:576px) {
+    .navbar-brand img{
+        width: 230px;
+    }
+}
